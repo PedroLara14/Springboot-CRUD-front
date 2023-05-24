@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos personalizados para el scroller */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scroller */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del scroller */
+  border-radius: 2px; /* Borde redondeado del scroller */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color de fondo del scroller */
+}
+
+.btn__container {
+  display: flex;
+}
+
+.btn-actualizar {
+  margin-left: 1.5rem;
+}
